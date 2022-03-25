@@ -1,74 +1,74 @@
 [
   {
     "id": 1,
-    "destination": "Machu Picchu",
+    "location": "Machu Picchu",
     "img": "https://iqbal-project-resources.netlify.app/images/1-machu-picchu-peru.jpg",
-    "country": "Peru",
+    "country": "Peru"
   },
   {
     "id": 2,
-    "destination": "The Grand Canyon, Arizona",
+    "location": "The Grand Canyon, Arizona",
     "img": "https://iqbal-project-resources.netlify.app/images/2-grand-canyon-snow-patches.jpg",
-    "country": "USA",
+    "country": "USA"
   },
   {
     "id": 3,
-    "destination": "Rome",
+    "location": "Rome",
     "img": "https://iqbal-project-resources.netlify.app/images/3-rome-italy.jpg",
-    "country": "Italy",
+    "country": "Italy"
   },
   {
     "id": 4,
-    "destination": "Maui, Hawaii",
+    "location": "Maui, Hawaii",
     "img": "https://iqbal-project-resources.netlify.app/images/4-maui-hawaii.jpg",
-    "country": "USA",
+    "country": "USA"
   },
   {
     "id": 5,
-    "destination": "Masai Mara",
+    "location": "Masai Mara",
     "img": "https://iqbal-project-resources.netlify.app/images/5-masai-mara-kenya.jpg",
-    "country": "Kenya",
+    "country": "Kenya"
   },
   {
     "id": 6,
-    "destination": "Marrakesh",
+    "location": "Marrakesh",
     "img": "https://iqbal-project-resources.netlify.app/images/15-marrakesh-morocco.jpg",
-    "country": "Morocco",
+    "country": "Morocco"
   },
   {
     "id": 7,
-    "destination": "Istanbul",
+    "location": "Istanbul",
     "img": "https://iqbal-project-resources.netlify.app/images/7-istanbul-turkey.jpg",
-    "country": "Turkey",
+    "country": "Turkey"
   },
   {
     "id": 8,
-    "destination": "Angkor Wat",
+    "location": "Angkor Wat",
     "img": "https://iqbal-project-resources.netlify.app/images/8-cambodia-angkor-wat-stone-faces.jpg",
-    "country": "Cambodia",
+    "country": "Cambodia"
   },
   {
     "id": 9,
-    "destination": "London",
+    "location": "London",
     "img": "https://iqbal-project-resources.netlify.app/images/9-london-england.jpg",
-    "country": "England",
+    "country": "England"
   },
   {
     "id": 10,
-    "destination": "Manhattan, New York",
+    "location": "Manhattan, New York",
     "img": "https://iqbal-project-resources.netlify.app/images/10-manhattan-new-york.jpg",
-    "country": "USA",
+    "country": "USA"
   },
   {
     "id": 11,
-    "destination": "Paris",
+    "location": "Paris",
     "img": "https://iqbal-project-resources.netlify.app/images/11-paris-france.jpg",
-    "country": "France",
+    "country": "France"
   },
   {
     "id": 12,
-    "destination": "Montreal",
+    "location": "Montreal",
     "img": "https://iqbal-project-resources.netlify.app/images/12-old-montreal-summer.jpg",
-    "country": "Canada",
+    "country": "Canada"
   }
 ]
