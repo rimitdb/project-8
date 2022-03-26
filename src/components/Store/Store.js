@@ -13,9 +13,14 @@ const Store = () => {
             .then(data => setDestinations(data))
     }, []);
 
+
     const handleAddToCart = (destination) => {
         const newCart = [...cart, destination];
         setCart(newCart);
+    }
+
+    const handleResetBtn = () => {
+        setCart([]);
     }
 
     return (
@@ -30,7 +35,7 @@ const Store = () => {
                 }
             </div>
             <div className='cart-container'>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} handleResetBtn={handleResetBtn}></Cart>
             </div>
         </div>
     );
