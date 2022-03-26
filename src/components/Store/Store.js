@@ -16,8 +16,9 @@ const Store = () => {
 
     const handleAddToCart = (destination) => {
         const newCart = [...cart, destination];
+        console.log(newCart)
         if (newCart.length >= 5) {
-            alert('You can add 4 item only!')
+            return alert('You can add 4 item only!')
         }
         else {
             setCart(newCart);
@@ -31,6 +32,7 @@ const Store = () => {
         const randomItem = [Math.floor(Math.random() * cartForRandom.length)];
         const selectedItem = cartForRandom[randomItem];
         setCart([selectedItem]);
+
     }
 
     const handleResetBtn = () => {
