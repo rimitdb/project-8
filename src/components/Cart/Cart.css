@@ -1,5 +1,18 @@
 .cart{
     position: sticky;
-    /* margin-top: 60px; */
     padding: 5px 5px;
+}
+.cart-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.cart-text{
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }

@@ -1,12 +1,10 @@
 import React from 'react';
 import './Cart.css';
 
-function chooseRandom() {
-    Math.random();
-}
 
-const Cart = ({ cart, handleResetBtn }) => {
+const Cart = ({ cart, handleResetBtn, chooseRandom }) => {
     // const { location, img } = cart;
+
     return (
         <div className='cart'>
             <div>
@@ -14,13 +12,12 @@ const Cart = ({ cart, handleResetBtn }) => {
             </div>
             <div>
                 {
-                    cart.map(item => (<h4 key={item.id}>{item.location}</h4>)
+                    cart.map(item => (<h5 className='cart-text' key={item.id}><img className='cart-img' src={item.img} alt="" />{item.location}, {item.country}</h5>)
 
                     )}
             </div>
-
             <div>
-                <button>CHOOSE BEST ONE</button>
+                <button onClick={() => chooseRandom()}>CHOOSE BEST ONE</button><br /><br />
                 <button onClick={() => handleResetBtn()}>RESET YOUR DESTINATION</button>
             </div>
         </div>
