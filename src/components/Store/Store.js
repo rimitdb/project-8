@@ -6,7 +6,6 @@ const Store = () => {
 
     const [destinations, setDestinations] = useState([]);
     const [cart, setCart] = useState([]);
-    // const [getRandom, setGetRandom] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -17,13 +16,18 @@ const Store = () => {
 
     const handleAddToCart = (destination) => {
         const newCart = [...cart, destination];
-        setCart(newCart);
+        if (newCart.length >= 5) {
+            alert('You can add 4 item only!')
+        }
+        else {
+            setCart(newCart);
+        }
+
     }
 
 
     const chooseRandom = (newCart) => {
         const cartForRandom = [...cart, newCart];
-        console.log(cartForRandom);
         const randomItem = [Math.floor(Math.random() * cartForRandom.length)];
         const selectedItem = cartForRandom[randomItem];
         setCart([selectedItem]);

@@ -16,7 +16,7 @@ const Cart = ({ cart, handleResetBtn, chooseRandom }) => {
                     )}
             </div>
             <div>
-                <button onClick={() => chooseRandom()}>CHOOSE BEST ONE</button><br /><br />
+                <button onClick={() => chooseRandom()}>SELECT BEST ONE</button><br /><br />
                 <button onClick={() => handleResetBtn()}>RESET YOUR DESTINATION</button>
             </div>
         </div>
