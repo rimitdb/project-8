@@ -36,11 +36,11 @@
         height: 600px;
         border-radius: 10px;
         margin-top: 50px;
-        /* margin: auto; */
     }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-device-width: 1024px){
+
     .store-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);

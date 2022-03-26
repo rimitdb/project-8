@@ -13,7 +13,6 @@ const Cart = ({ cart, handleResetBtn, chooseRandom }) => {
             <div>
                 {
                     cart.map(item => (<h5 className='cart-text' key={item.id}><img className='cart-img' src={item.img} alt="" />{item.location}, {item.country}</h5>)
-
                     )}
             </div>
             <div>

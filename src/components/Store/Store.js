@@ -6,6 +6,7 @@ const Store = () => {
 
     const [destinations, setDestinations] = useState([]);
     const [cart, setCart] = useState([]);
+    // const [getRandom, setGetRandom] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -20,9 +21,12 @@ const Store = () => {
     }
 
 
-    const chooseRandom = () => {
-        let randomItem = [...cart]
-        randomItem = Math.floor(Math.random() * randomItem.length)
+    const chooseRandom = (newCart) => {
+        const cartForRandom = [...cart, newCart];
+        console.log(cartForRandom);
+        const randomItem = [Math.floor(Math.random() * cartForRandom.length)];
+        const selectedItem = cartForRandom[randomItem];
+        setCart([selectedItem]);
     }
 
     const handleResetBtn = () => {
